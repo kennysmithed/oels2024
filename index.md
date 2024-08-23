@@ -91,8 +91,8 @@ Each week there will be a set reading and a programming assignment. The reading 
 - *Scientific content:* speech perception, social influences on phonetic adaptation
 - *Technical content:* Audio, trial data again, preloading stimuli, saving data trial by trial
 - [Reading](oels_reading_wk6.md)
-- [Programming task](oels_practical_wk8.md)
-- [Lecture slides](slides/oels_lecture_wk8.pdf)
+- Programming task
+- Lecture slides
 
 ### Week 7 (27th October): Priming and overspecification
 
