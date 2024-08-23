@@ -18,15 +18,14 @@ We'll also be supported in lab classes by three tutors, names **to be added**.
 
 ## Class times
 
-The course runs in semester 1. We have lectures 9am-9.50am on Mondays, and lab classes 9am-10.50am on Wednesdays. There will also extra drop-in labs available in the run-up to the final assignment, see below.
-
-Lectures and labs are both essential to doing well on the course - the assessment involves an understanding both of the literature on online experiments (covered in the readings and lectures) and the practicalities of how to build them (covered in your own work on the practicals, with support available in the labs). Attendance will be taken in labs.
-
-### Arrangements for lectures and labs
-
 Lectures take place on Monday mornings, 9am-9.50am, in room S1, [7 George Square](https://www.ed.ac.uk/maps/maps?building=0209) - as far as I can work out, S indicates Second floor. Labs are on Wednesday mornings, 9am-10.50am, in room M2 [Appleton Tower](https://www.ed.ac.uk/maps/maps?building=0201) (this is an open-plan Teaching Studio). 
 
 Lectures will be live-streamed and recorded, streams/recordings are on the course page on Learn. There is no remote option for labs.
+
+There will also be extra drop-in labs available in the run-up to the final assignment, see below.
+
+Lectures and labs are both essential to doing well on the course - the assessment involves an understanding both of the literature on online experiments (covered in the readings and lectures) and the practicalities of how to build them (covered in your own work on the practicals, with support available in the labs). **Attendance will be taken in labs.**
+
 
 ## Assessment
 
@@ -34,11 +33,11 @@ There are different assessments for undergraduates and postgraduates.
 
 ### Undergraduate assessment 
 
-The undergraduate version of the course is worth 20 credits and there are two pieces of assessment, due on 7th November and 5th December. Assessment 1 is an annotated bibliography reviewing and evaluating 4 articles typically drawn from the course set readings. Assessment 2 is a project where you produce a working experiment implemented in jsPsych and an accompanying report explaining the motivation behind that experiment, justifying important design decisions you took in building the experiment, and appraising the experiment and ways it could be improved/extended. Full details are provided in the [undergraduate assignment brief](assessment/UGAssignmentBrief2024.pdf)**to be added** and [the FAQ](assessment/oels_assignment_faq.md) (which also features examples of good assignments). 
+The undergraduate version of the course is worth 20 credits and there are two pieces of assessment, due on 7th November and 5th December. Assessment 1 is an annotated bibliography reviewing and evaluating 4 articles typically drawn from the course set readings. Assessment 2 is a project where you produce a working experiment implemented in jsPsych and an accompanying report explaining the motivation behind that experiment, justifying important design decisions you took in building the experiment, and appraising the experiment and ways it could be improved/extended. Full details are provided in the [undergraduate assignment brief](assessment/UGAssignmentBrief2024.pdf) **to be added** and [the FAQ](assessment/oels_assignment_faq.md) (which also features examples of good assignments). 
 
 ### Postgraduate assessment
 
-The postgraduate version of the course is worth 10 credits and there is a single piece of assessment, due on 5th December. This assessment is a project where you produce a working experiment implemented in jsPsych and an accompanying report explaining the motivation behind that experiment, justifying important design decisions you took in building the experiment, and appraising the experiment and ways it could be improved/extended. Full details are provided in the [postgraduate assignment brief](assessment/PGAssignmentBrief2024.pdf)**to be added** and [the FAQ](assessment/oels_assignment_faq.md) (which also features examples of good assignments). 
+The postgraduate version of the course is worth 10 credits and there is a single piece of assessment, due on 5th December. This assessment is a project where you produce a working experiment implemented in jsPsych and an accompanying report explaining the motivation behind that experiment, justifying important design decisions you took in building the experiment, and appraising the experiment and ways it could be improved/extended. Full details are provided in the [postgraduate assignment brief](assessment/PGAssignmentBrief2024.pdf) **to be added** and [the FAQ](assessment/oels_assignment_faq.md) (which also features examples of good assignments). 
 
 ## Course Materials
 
