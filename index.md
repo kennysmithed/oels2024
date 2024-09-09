@@ -14,7 +14,7 @@ No prior experience in coding is assumed, but you have to be prepared to dive in
 
 The course is co-taught by [Kenny Smith](http://www.lel.ed.ac.uk/~kenny/) and [Alisdair Tullo](https://www.ed.ac.uk/profile/alisdair-tullo/). Kenny (that's me) is the main lecturer and the course organiser; Alisdair is the PPLS javascript/jsPsych guru and delivers the lab sessions with Kenny. Best way to get in touch with us is in one of the live sessions, see below, or by email to [kenny.smith@ed.ac.uk](mailto:kenny.smith@ed.ac.uk) or [alisdair.tullo@ed.ac.uk](mailto:alisdair.tullo@ed.ac.uk).
 
-We'll also be supported in lab classes by three tutors, names **to be added**. 
+We'll also be supported in lab classes by [Maisy Hallam](https://maisyhallam.github.io) and [Yajun Liu](https://www.ed.ac.uk/profile/yajun-liu), who are doing their PhDs with me and use jsPsych to build online experiments for their own research.  
 
 ## Class times
 
