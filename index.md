@@ -57,7 +57,7 @@ Each week there will be a set reading and a programming assignment. The reading 
 - *Technical content:* more jsPsych and javascript basics
 - [Reading](oels_reading_wk2.md)
 - [Programming task](oels_practical_wk2.md)
-- Lecture slides
+- [Lecture slides](slides/oels_lecture_wk1.pdf)
 
 ### Week 3 (30th September): Grammaticality judgements
 
