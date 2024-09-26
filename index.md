@@ -65,7 +65,7 @@ Each week there will be a set reading and a programming assignment. The reading 
 - *Technical content:* simple key- and button-press responses
 - [Reading](oels_reading_wk3.md)
 - [Programming task](oels_practical_wk3.md)
-- Lecture slides
+- [Lecture slides](slides/oels_lecture_wk3.pdf)
 
 ### Week 4 (7th October): Self-paced reading
 
