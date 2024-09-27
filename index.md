@@ -81,7 +81,7 @@ Each week there will be a set reading and a programming assignment. The reading 
 - *Scientific content:* probability matching and regularisation
 - *Technical content:* using trial data for contingent trials, saving data
 - [Reading](oels_reading_wk5.md)
-- Programming task
+- [Programming task](oels_practical_wk5.md)
 - Lecture slides
 
 ### Week 6 (20th October): Audio stimuli
