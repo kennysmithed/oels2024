@@ -5,7 +5,7 @@ description: An example of how to code this up
 
 ## The question
 
-In the week 7 practical I set the following problem - note that it's marked as optional and challenging, although once you have seen it done once it's actually fairly simple.
+In the practical I set the following problem - note that it's marked as optional and challenging, although once you have seen it done once it's actually fairly simple.
 
 - Can you figure out how to use the `jsPsych.randomization.shuffleNoRepeats` function [documented here](https://www.jspsych.org/v8/reference/jspsych-randomization/#jspsychrandomizationshufflenorepeats) to do a version where observation and test trials for multiple objects are interspersed, but you never see the same object twice in a row? NB this will only work if you have 3+ different objects in the experiment - it's too hard for the code to find randomisations with no repeats if you have a small number of objects, and impossible if you only have one object, so the code will hang while  endlessly searching!
 
