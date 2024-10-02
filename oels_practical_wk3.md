@@ -139,7 +139,7 @@ jsPsych.run(full_timeline);
 
 ## Exercises with the grammaticality judgment experiment code
 
-Attempt these problems. After the practical you will be able to consult [some notes on the answers](oels_practical_wk4_notes.md), but note that this link won't function until after the class - we want you to try this stuff yourself!
+Attempt these problems. After the practical you will be able to consult [some notes on the answers](oels_practical_wk3_notes.md), but note that this link won't function until after the class - we want you to try this stuff yourself!
 
 - How would you add extra judgment trials to this code, to ask people about the grammaticality of some additional sentences? Try adding a few new judgment trials.
 - Have a look at the data that is displayed at the end of the experiment. This is in comma-separated format, so a series of columns separated by commas, the very first row of the data gives you the column names. Can you see where the stimulus and the response for each trial is recorded? Is there anything in the data you weren't expecting or don't understand? **Tip:** this can be a bit unwieldy to look at on the screen, so you might want to copy and paste it into a spreadsheet app (e.g. Excel) and look at it there. Copy the text on the screen, paste it into e.g. Excel then use the "Text to Columns" command (under the Data menu in Excel on my mac) to format it - the data is comma-separated, there is a comma between each column, so you want to select "Delimited" with comma as the delimiter. If you get that right you'll suddenly go from a big mess to a nice spreadsheet with columns, which will help you make sense of it.
