@@ -14,13 +14,21 @@
     <!--[if lt IE 8]>
     <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
     <![endif]-->
-    <style>body { line-height: 2; }</style>
+    <style>body { line-height: 1; }</style>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   </head>
   <body>
 
     <div class="wrapper">
+
+      <p>
+        <label for="spacing">Line spacing: </label>
+        <select id="lineHeight" onchange="changeStyle('line-height', this.value)">
+            <option value="1">Single</option>
+            <option value="2">Double</option>
+        </select>
+    </p>
 
       <section>
         <div id="title">
