@@ -73,7 +73,7 @@ Each week there will be a set reading and a programming assignment. The reading 
 - *Technical content:* collecting reaction time data, more complex nested trials
 - [Reading](oels_reading_wk4.md)
 - [Programming task](oels_practical_wk4.md)
-- Lecture slides
+- [Lecture slides](slides/oels_lecture_wk4.pdf)
 
 
 ### Week 5 (13th October): Word learning / frequency learning
