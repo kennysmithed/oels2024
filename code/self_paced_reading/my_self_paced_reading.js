@@ -34,7 +34,7 @@ button response here because I think it makes it less likely that people will ke
 through before they realise what they are supposed to be doing.
 
 For the instruction screen I am using keyboard response as per last week. Note that
-jsPsych provides an instructions plugin (https://www.jspsych.org/7.3/plugins/instructions/)
+jsPsych provides an instructions plugin (https://www.jspsych.org/v8/plugins/instructions/)
 which would be better if you were providing many many pages of instructions.
 */
 
