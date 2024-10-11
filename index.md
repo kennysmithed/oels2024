@@ -27,15 +27,15 @@ Lectures and labs are both essential to doing well on the course - the assessmen
 
 ## Assessment
 
-There are different assessments for undergraduates and postgraduates.
+There are different assessments for undergraduates and postgraduates. 
 
 ### Undergraduate assessment 
 
-The undergraduate version of the course is worth 20 credits and there are two pieces of assessment, due on 7th November and 5th December. Assessment 1 is an annotated bibliography reviewing and evaluating 4 articles typically drawn from the course set readings. Assessment 2 is a project where you produce a working experiment implemented in jsPsych and an accompanying report explaining the motivation behind that experiment, justifying important design decisions you took in building the experiment, and appraising the experiment and ways it could be improved/extended. Full details are provided in the [undergraduate assignment brief](assessment/UGAssignmentBrief2024.pdf) and [the FAQ](assessment/oels_assignment_faq.md) (which also features examples of good assignments). 
+The undergraduate version of the course is worth 20 credits and there are two pieces of assessment, due on 7th November and 5th December. Assessment 1 is an annotated bibliography reviewing and evaluating 4 articles typically drawn from the course set readings. Assessment 2 is a project where you produce a working experiment implemented in jsPsych and an accompanying report explaining the motivation behind that experiment, justifying important design decisions you took in building the experiment, and appraising the experiment and ways it could be improved/extended. Full details are provided in the [undergraduate assignment brief](assessment/UGAssignmentBrief2024.pdf) and [the FAQ](assessment/oels_assignment_faq.md) (which also features examples of good assignments). Please also read the [policy on generative AI](assessment/GenerativeAIPolicy.pdf) for this course; if you use generative AI you need to complete and attach [the AI declaration](assessment/AI_declaration.docx) to your submission.
 
 ### Postgraduate assessment
 
-The postgraduate version of the course is worth 10 credits and there is a single piece of assessment, due on 5th December. This assessment is a project where you produce a working experiment implemented in jsPsych and an accompanying report explaining the motivation behind that experiment, justifying important design decisions you took in building the experiment, and appraising the experiment and ways it could be improved/extended. Full details are provided in the [postgraduate assignment brief](assessment/PGAssignmentBrief2024.pdf) and [the FAQ](assessment/oels_assignment_faq.md) (which also features examples of good assignments). 
+The postgraduate version of the course is worth 10 credits and there is a single piece of assessment, due on 5th December. This assessment is a project where you produce a working experiment implemented in jsPsych and an accompanying report explaining the motivation behind that experiment, justifying important design decisions you took in building the experiment, and appraising the experiment and ways it could be improved/extended. Full details are provided in the [postgraduate assignment brief](assessment/PGAssignmentBrief2024.pdf) and [the FAQ](assessment/oels_assignment_faq.md) (which also features examples of good assignments). Please also read the [policy on generative AI](assessment/GenerativeAIPolicy.pdf) for this course; if you use generative AI you need to complete and attach [the AI declaration](assessment/AI_declaration.docx) to your submission.
 
 ## Course Materials
 
