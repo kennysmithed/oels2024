@@ -1,0 +1,98 @@
+---
+title: Week 7 practical, random conditions and declining random waits
+description: An example of how to code this up
+---
+
+## "Model answer" code
+
+There are two more challenging questions this week, so I will provide the code first (containing both) then talk you through the questions in turn. As usual, note the scare quotes around "model answer" - this is one way to do these things, and it's what I had in mind when I wrote the questions, but it's certainly not the only or the best way to do it!
+
+You can download my code through the following two links:
+- <a href="code/confederate_priming_extended/confederate_priming_readfromcsv_extended.html" download> Download confederate_priming_readfromcsv_extended.html</a>
+- <a href="code/confederate_priming_extended/confederate_priming_readfromcsv_extended.js" download> Download confederate_priming_readfromcsv_extended.js</a>
+
+You'll guess from the names that these both build on the readfromcsv version of the confederate priming code. If you drop these into your `confederate_priming` folder they will be able to access the various stimuli folders that are already there.
+
+## How would you randomly allocate a participant to one of these two conditions, overspecific or minimally specific? 
+
+Random assignment to conditions is really useful, I do it all the time.
+
+Hopefully at this point in the practical you figured out that the `read_trials_and_prepare_timeline` function at the end of the code takes a filename, either `overspecific_confederate.csv` or `minimal_confederate.csv`, and if you use a different filename you get a different kind of confederate. So in this experiment these constitute our two conditions, and we can assign people to a random condition just by picking one of those two files at random. We can write a simple function to do that, selecting from a list of two filenames at random, which looks like this:
+
+```js
+function random_condition() {
+  var available_csvs = ["overspecific_confederate.csv","minimal_confederate.csv"];
+  var selected_csv = jsPsych.randomization.shuffle(available_csvs)[0];
+  return selected_csv;
+}
+```
+
+So when we call `random_condition()` it will select either `overspecific_confederate.csv` or `minimal_confederate.csv` at random. We can then use that randomly-selected CSV when we read in the trial list:
+
+```js
+var this_condition = random_condition();
+console.log(this_condition); //logging it so you can see it in the console
+
+read_trials_and_prepare_timeline(this_condition);
+```
+
+Hopefully that is straightforward when you see it, but if not ask about it in the labs! I generally use this method for assigning people at random to conditions - I have a condition list, I pick randomly from that list, and then I do something using the randomly-selected condition name (could be reading a particular CSV file, as here, or could be doing something else differently in the code depending on the condition variable I have created).
+
+## [Harder, optional] Can you change the `random_wait` function so it generates longer waits early in the experiment and shorter waits later on? 
+
+In order to do this we need to know how far we are into the experiment, so we can make 
+the length of wait depend on progress. As usual there are several possible solutions to this. One very simple way to do this is to create a new variable, called something like `wait_counter`, which starts at 0 and increases by 1 every time the participant completes a picture selection or description trial. So we create the variable somewhere near the top of our code:
+
+```js
+var wait_counter = 0;
+```
+
+We can then use that wait_counter in our `random_wait` function, so that the length of the delay depends on `wait_counter`, and every time we generate a random wait we increase the counter - since we generate the trials in order, this means that `wait_counter` will be higher with later trials, and we can make the random wait shorter with higher values of the counter. This could be very simple, e.g.:
+
+```js
+function random_wait() {
+  if (wait_counter<5) { //first few trials, very slow
+    var wait = 5000 + Math.floor(Math.random() * 3000); //this will be a number between 5000 and 8000
+  }
+  else if (wait_counter<10) { //next few trials, bit faster
+    var wait = 3000 + Math.floor(Math.random() * 2000); //3000-5000
+  } 
+  else {//all other trials, quite quick
+    var wait = 1000 + Math.floor(Math.random() * 2000); //1000-3000
+  }
+  console.log(wait_counter); //so you can see it in the console
+  console.log(wait); //so you can see it in the console
+  wait_counter = wait_counter + 1; //increment the wait_counter
+  return wait;
+}
+```
+
+If you wanted you could make the decline more gradual, having the minimum wait be some more complex transform of `wait_counter`, but this simple approach will work.
+
+
+Alternatively, you can use jsPsych's built-in trial counter - as you'll probably have realised from looking at data generated by jsPsych throughout this course, every trial in a jsPsych experiment has an index, and you can access that global trial counter as follows:
+```js
+jsPsych.getProgress().current_trial_global
+```
+
+See [the documentation for jsPsych.getProgress](https://www.jspsych.org/v8/reference/jspsych/#jspsychgetprogress) - this counter will increase with every trial (including e.g. instruction screens etc) so it might require a bit more thought to decide how the trial counter should relate to the length of the random wait, but it's another way to do it.
+
+The only additional complexity here is that we can't set the random wait durations at the time of building the experiment timeline, as we were doing previously - before the experiment begins, the `wait_counter` (or the `current_trial_global`) will be 0, because we haven't run any trials. So instead we have to generate the random wait when we are ready to start the trial. The way to do that is as follows:
+
+```js
+var waiting_for_partner = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: "Waiting for partner to select",
+    choices: [],
+    trial_duration: function () {return random_wait()}, 
+    post_trial_gap: 500, //short pause after the confederate makes their selection
+  };
+```
+
+So `trial_duration` is not a fixed value, but a function call that runs when the trial actually runs. You could achieve the same sort of effect by setting the duration in the wait trial's `on_start`.
+
+
+
+## Re-use
+
+All aspects of this work are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).

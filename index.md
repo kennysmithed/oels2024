@@ -97,7 +97,7 @@ Each week there will be a set reading and a programming assignment. The reading 
 - *Scientific content:* Priming and overspecification
 - *Technical content:*  Audio recording, custom preload lists, conditional timelines, reading trial lists from CSV
 - [Reading](oels_reading_wk7.md)
-- Programming task
+- [Programming task](oels_practical_wk7.md)
 - Lecture slides
 
 ### Week 8 (4th November): Iterated Learning
