@@ -90,7 +90,7 @@ Each week there will be a set reading and a programming assignment. The reading 
 - *Technical content:* Audio, trial data again, preloading stimuli, saving data trial by trial
 - [Reading](oels_reading_wk6.md)
 - [Programming task](oels_practical_wk6.md)
-- Lecture slides
+- [Lecture slides](slides/oels_lecture_wk6.pdf)
 
 ### Week 7 (27th October): Priming and overspecification
 
