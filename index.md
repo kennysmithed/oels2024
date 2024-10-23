@@ -105,7 +105,7 @@ Each week there will be a set reading and a programming assignment. The reading 
 - *Scientific content:* iterated learning and the evolution of compositional structure
 - *Technical content:* looping trials, reading trial lists from CSVs again, PHP scripts for iteration
 - [Reading](oels_reading_wk8.md)
-- Programming task
+- [Programming task](oels_practical_wk8.md)
 - Lecture slides
 
 ### Week 9 (11th November): Participant-to-participant interaction
