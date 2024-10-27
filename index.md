@@ -98,7 +98,7 @@ Each week there will be a set reading and a programming assignment. The reading 
 - *Technical content:*  Audio recording, custom preload lists, conditional timelines, reading trial lists from CSV
 - [Reading](oels_reading_wk7.md)
 - [Programming task](oels_practical_wk7.md)
-- Lecture slides
+- [Lecture slides](slides/oels_lecture_wk7.pdf)
 
 ### Week 8 (4th November): Iterated Learning
 
@@ -135,7 +135,14 @@ I am sticking some extra documented experiments I have created here, in case the
 
 ### Additional drop-in labs for coding help with the final assignment
 
-We will provide some extra drop-in labs after the conclusion of the regular lectures and labs to give you an opportunity to get some help with your final assignment code. Obviously we won't write your code for you, but if you are having trouble interpreting an error message or finding a bug or want some tips on how to achieve a particular effect we can help you figure it out. Note that these are not compulsory, and they are drop-ins not extra labs - the idea is that you come along, ask a couple of questions, then go away. Times and locations **to be added**.
+We will provide some extra drop-in labs after the conclusion of the regular lectures and labs to give you an opportunity to get 
+some help with your final assignment code. Obviously we won't write your code for you, but if you are having trouble interpreting 
+an error message or finding a bug or want some tips on how to achieve a particular effect we can help you figure it out. 
+Note that these are not compulsory, and they are drop-ins not extra labs - the idea is that you come along, ask a couple of 
+questions, then go away. **More times TBC**
+- Wednesday 20th November, 1pm-2.30pm, DSB 1.08, with Kenny.
+- Monday 25th November, 11am-1pm, DSB 1.08, with Kenny.
+- Tuesday 3rd December, 1.30pm-3pm, DSB 1.08, with Kenny.
 
 ## Re-use
 
