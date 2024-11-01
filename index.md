@@ -106,7 +106,7 @@ Each week there will be a set reading and a programming assignment. The reading 
 - *Technical content:* looping trials, reading trial lists from CSVs again, PHP scripts for iteration
 - [Reading](oels_reading_wk8.md)
 - [Programming task](oels_practical_wk8.md)
-- Lecture slides
+- [Lecture slides](slides/oels_lecture_wk8.pdf)
 
 ### Week 9 (11th November): Participant-to-participant interaction
 
