@@ -114,7 +114,7 @@ Each week there will be a set reading and a programming assignment. The reading 
 - *Technical content:* web sockets, python servers, incrementally building a timeline
 - [Reading](oels_reading_wk9.html)
 - Programming task
-- Lecture slides
+- [Lecture slides](slides/oels_lecture_wk9.pdf)
 
 ### Week 10 (18th November): Interacting with MTurk
 
