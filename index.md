@@ -142,7 +142,8 @@ Note that these are not compulsory, and they are drop-ins not extra labs - the i
 questions, then go away. **More times TBC**
 - Wednesday 20th November, 9am-11am, Appleton Tower room M2 (i.e. usual time and place), with Yajun.
 - Wednesday 20th November, 1pm-2.30pm, DSB 1.08, with Kenny.
-- Monday 25th November, 11am-1pm, DSB 1.08, with Kenny.
+- Monday 25th November, 11am-12, DSB 1.08, with Kenny.
+- Monday 25th November, 2pm-3pm, DSB 1.08, with Kenny.
 - Wednesday 27th November, 9am-11am, Appleton Tower room M2 (i.e. usual time and place), with Yajun.
 - Tuesday 3rd December, 1.30pm-3pm, DSB 1.08, with Kenny.
 - Wednesday 4th December, 9am-11am, Appleton Tower room M2 (i.e. usual time and place), with Maisy.
