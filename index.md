@@ -113,7 +113,7 @@ Each week there will be a set reading and a programming assignment. The reading 
 - *Scientific content:* least effort and Zipf's Law of Abbreviation
 - *Technical content:* web sockets, python servers, incrementally building a timeline
 - [Reading](oels_reading_wk9.html)
-- Programming task
+- [Programming task](oels_practical_wk9.md)
 - [Lecture slides](slides/oels_lecture_wk9.pdf)
 
 ### Week 10 (18th November): Interacting with MTurk
