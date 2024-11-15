@@ -141,7 +141,7 @@ an error message or finding a bug or want some tips on how to achieve a particul
 Note that these are not compulsory, and they are drop-ins not extra labs - the idea is that you come along, ask a couple of 
 questions, then go away. **More times TBC**
 - Wednesday 20th November, 9am-11am, Appleton Tower room M2 (i.e. usual time and place), with Yajun.
-- Wednesday 20th November, 1pm-2.30pm, DSB 1.08, with Kenny.
+- Wednesday 20th November, 1.30pm-3.00pm, DSB 1.08, with Kenny.
 - Monday 25th November, 11am-12, DSB 1.08, with Kenny.
 - Monday 25th November, 2pm-3pm, DSB 1.08, with Kenny.
 - Wednesday 27th November, 9am-11am, Appleton Tower room M2 (i.e. usual time and place), with Yajun.
