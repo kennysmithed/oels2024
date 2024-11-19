@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Getting MTurk ID from URL</title>
+    <script src="https://unpkg.com/jspsych@8.0.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.0.0"></script>
+    <link
+      href="https://unpkg.com/jspsych@8.0.3/css/jspsych.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <script>
+      var jsPsych = initJsPsych();
+
+      var turk_info = jsPsych.turk.turkInfo();
+     
+      var info_screen = {
+        type: jsPsychHtmlKeyboardResponse,
+        choices: "NO_KEYS",
+        stimulus:
+          "<h3>Your details</h3>\
+        <p>Your worker ID: " +
+          turk_info.workerId +
+          "</p>\
+        <p>Your HIT ID: " +
+          turk_info.hitId +
+          "</p>\
+        <p>Your assignment ID: " +
+          turk_info.assignmentId +
+          "</p>",
+      };
+
+      jsPsych.run([info_screen]);
+    </script>
+  </body>
+</html>

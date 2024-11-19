@@ -122,7 +122,7 @@ No lecture or lab in week 10, but there are some materials that will be useful f
 
 - *Scientific content:* None!
 - *Technical content:* How to set up a server, launch and pay participants, manage qualifications, etc
-- How to get your experiment online
+- [How to get your experiment online](oels_wk10.md)
 
 
 ### Bonus content
@@ -139,7 +139,7 @@ We will provide some extra drop-in labs after the conclusion of the regular lect
 some help with your final assignment code. Obviously we won't write your code for you, but if you are having trouble interpreting 
 an error message or finding a bug or want some tips on how to achieve a particular effect we can help you figure it out. 
 Note that these are not compulsory, and they are drop-ins not extra labs - the idea is that you come along, ask a couple of 
-questions, then go away. **More times TBC**
+questions, then go away. 
 - Wednesday 20th November, 9am-11am, Appleton Tower room M2 (i.e. usual time and place), with Yajun.
 - Wednesday 20th November, 1.30pm-3.00pm, DSB 1.08, with Kenny.
 - Monday 25th November, 11am-12, DSB 1.08, with Kenny.
